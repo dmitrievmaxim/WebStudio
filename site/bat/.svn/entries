@@ -1,0 +1,42 @@
+10
+
+dir
+0
+https://github.com:443/dmitrievmaxim/WebStudio/site/bat
+https://github.com:443/dmitrievmaxim/WebStudio
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+357d9ff6-a5ca-13a7-d1c5-ce57b7db7bff
+
+MailHandler.php
+file
+
+
+
+add
+
+MailHandler-sub.php
+file
+
+
+
+add
+
