@@ -266,9 +266,9 @@
 	display: block;
 	position: absolute;
 	left: 50%;
-	bottom: 73px;
+	bottom: 10px;
 	width: 178px;
-	height: 32px;
+	height: 16px;
 	margin-left: -89px;
 	overflow: hidden;
 	right: 0;
@@ -293,9 +293,9 @@
 
 .pagination li a {
 	display: block;
-	width: 32px;
+	width: 16px;
 	cursor: pointer;
-	height: 32px;
+	height: 16px;
 	background: url(../images/pagination.png) right 0 no-repeat;
 	overflow: hidden;
 	color: transparent;
