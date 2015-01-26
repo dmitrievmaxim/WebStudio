@@ -55,11 +55,17 @@ body {
 	width: 960px;
 }
 
-.slider_grid {
+/*.slider_grid {
   display: inline;
   float: left;
   margin-left: 5px;
   margin-right: 5px;	
+}*/
+
+.slider_grid {
+  width:100%;
+  margin:0 auto;
+  min-width:960px;
 }
 
 /* `Grid >> Global

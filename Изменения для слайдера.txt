@@ -1,0 +1,28 @@
+camera.css
+днаюбхк
+.slider_wrapper .pic {
+	width:100% !important;	
+	background-size: cover !important;
+	background-repeat:no-repeat !important;
+}
+
+grid.css
+ашкн
+.slider_grid {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;	
+}
+
+ярюкн
+.slider_grid {
+  /*display: inline;*/
+  /*float: left;
+  margin-left: 5px;
+  margin-right: 5px;*/	
+  width:100%;
+  margin:0 auto;
+  min-width:960px;
+}
+
