@@ -29,6 +29,20 @@ has-prop-mods
 trunk
 dir
 
+sources
+dir
+
+
+
+add
+
+Изменения для слайдера.txt
+file
+0
+
+
+add
+
 site
 dir
 
@@ -38,4 +52,11 @@ add
 
 branches
 dir
+
+.gitattributes
+file
+0
+
+
+add
 

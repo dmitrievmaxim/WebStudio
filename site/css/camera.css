@@ -16,12 +16,6 @@
 	height: 400px;
 }
 
-.slider_wrapper .pic {
-	width:100% !important;	
-	background-size: cover !important;
-	background-repeat:no-repeat !important;
-}
-
 .camera_target_content {
 	overflow: visible !important;
 

@@ -2,7 +2,7 @@
 
 dir
 0
-https://github.com:443/dmitrievmaxim/WebStudio/site
+https://github.com:443/dmitrievmaxim/WebStudio/sources/psd
 https://github.com:443/dmitrievmaxim/WebStudio
 add
 
@@ -23,48 +23,34 @@ has-prop-mods
 
 
 
-incomplete
+
 357d9ff6-a5ca-13a7-d1c5-ce57b7db7bff
 
-images
-dir
-
-
-
-add
-
-bat
-dir
-
-
-
-add
-
-css
-dir
-
-
-
-add
-
-index.html
+favicon.ico
 file
 
 
 
 add
+
+
+
+
+
+has-props
+has-prop-mods
 
-img
-dir
+free_website_template_Business.psd
+file
 
 
 
 add
-
-js
-dir
 
 
 
-add
+
+
+has-props
+has-prop-mods
 
