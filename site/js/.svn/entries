@@ -33,13 +33,6 @@ file
 
 add
 
-PIE.htc
-file
-
-
-
-add
-
 jquery.js
 file
 
@@ -47,7 +40,7 @@ file
 
 add
 
-html5shiv.js
+PIE.htc
 file
 
 
@@ -55,6 +48,13 @@ file
 add
 
 responsiveslides.min.js
+file
+
+
+
+add
+
+html5shiv.js
 file
 
 
@@ -75,13 +75,6 @@ file
 
 add
 
-PIE.php
-file
-
-
-
-add
-
 camera.js
 file
 
@@ -89,7 +82,7 @@ file
 
 add
 
-jquery.color.js
+PIE.php
 file
 
 
@@ -103,6 +96,13 @@ file
 
 add
 
+jquery.color.js
+file
+
+
+
+add
+
 jquery.ui.totop.js
 file
 
@@ -110,7 +110,7 @@ file
 
 add
 
-jquery-migrate-1.1.1.js
+tms-0.4.1.js
 file
 
 
@@ -124,7 +124,7 @@ file
 
 add
 
-tms-0.4.1.js
+jquery-migrate-1.1.1.js
 file
 
 

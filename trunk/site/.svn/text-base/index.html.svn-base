@@ -8,19 +8,52 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/camera.css">
 		<link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/responsiveslides.css">
 		<script src="js/jquery.js"></script>
-		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<!--<script src="js/jquery-migrate-1.1.1.js"></script>
 		<script src="js/superfish.js"></script>
 		<script src="js/forms.js"></script>
 		<script src="js/jquery.ui.totop.js"></script>
 		<script src="js/jquery.equalheights.js"></script>
 		<script src="js/jquery.easing.1.3.js"></script>
-		<script src="js/jquery.ui.totop.js"></script>
-		<script src="js/tms-0.4.1.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>-->
+        
+		<!--<script src="js/tms-0.4.1.js"></script>-->
+        
+        <script src="js/responsiveslides.min.js"></script>
+        
+        <!--Hook up the slideshow-->
+        <script>
+		  $(function() {
+			      //Rslides options	
+				  $(".rslides").responsiveSlides({
+/*					  auto: true,             // Boolean: Animate automatically, true or false
+					  speed: 1000,            // Integer: Speed of the transition, in milliseconds
+					  timeout: 1000,          // Integer: Time between slide transitions, in milliseconds
+					  pager: false,           // Boolean: Show pager, true or false
+					  nav: false,             // Boolean: Show navigation, true or false
+					  random: false,          // Boolean: Randomize the order of the slides, true or false
+					  pause: false,           // Boolean: Pause on hover, true or false
+					  pauseControls: false,    // Boolean: Pause when hovering controls, true or false
+					  prevText: "Previous",   // String: Text for the "previous" button
+					  nextText: "Next",       // String: Text for the "next" button
+					  maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+					  navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+					  manualControls: "",     // Selector: Declare custom pager navigation
+					  namespace: "rslides",   // String: Change the default namespace used
+					  before: function(){},   // Function: Before callback
+					  after: function(){}     // Function: After callback*/
+					});
+		  });
+		</script>
+		
+
+
+        
 		<script>
-			$(document).ready(function(){
+/*			$(document).ready(function(){
 				$('.slider_wrapper')._TMS({
-					show:0,
+  					show:0,
 					pauseOnHover:false,
 					prevBu:'.prev',
 					nextBu:'.next',
@@ -29,9 +62,9 @@
 					preset:'fade',
 					pagination:true,//'.pagination',true,'<ul></ul>'
 					pagNums:false,
-					slideshow:8000,
+					slideshow:2000,
 					numStatus:false,
-					banners: 'fade',
+					banners:false,
 					waitBannerAnimation:false,
 					progressBar:false
 				});
@@ -61,8 +94,11 @@
 				}
 				$(document).ready(function(){
 					$().UItoTop({ easingType: 'easeOutQuart' });
-				});
+				});*/
 		</script>
+        
+        
+        
 		<!--[if lt IE 8]>
 			<div style=' clear: both; text-align:center; position: relative;'>
 				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -105,52 +141,52 @@
 		</header>
 <!--=======content================================-->
 		<div id="page1" class="content">
-			<div class="ic">More Website Templates @ TemplateMonster.com - September 9, 2013!</div>
-			<div class="container_12">
-				<div class="grid_12">
-					<div class="slider_wrapper">
-						<ul class="items">
+            <ul class="rslides">
+
+                <li><a onClick="goToByScroll('page2'); return false;" href="#"> <img src="img/header-bg-1.png"></a></li>
+                <li><a onClick="goToByScroll('page3'); return false;" href="#"> <img src="img/header-bg-2.png"></a></li>
+                <li><a onClick="goToByScroll('page4'); return false;" href="#"> <img src="img/header-bg-1.png"></a></li>
+                <li><a onClick="goToByScroll('page5'); return false;" href="#"> <img src="img/header-bg-2.png"></a></li>
+              </ul>
+        	<!--<div class="slider_container">
+            	<div class="slider_grid">
+                	<div class="slider_wrapper">
+						<ul class="rslides">
 							<li>
-								<img src="images/spacer.gif" alt="">
 								<div class="caption banner">
-									<h2>Первый слайдик</h2>
+									<a onClick="goToByScroll('page2'); return false;" href="#"> <img src="img/header-bg-1.png"></a>
 								</div>
 							</li>
 							<li>
-								<img src="images/spacer.gif" alt="">
 								<div class="caption banner">
-									<h2>Второй слайдик</h2>
+									<a onClick="goToByScroll('page3'); return false;" href="#"> <img src="img/header-bg-2.png"></a>
 								</div>
 							</li>
 							<li>
-								<img src="images/spacer.gif" alt="">
 								<div class="caption banner">
-									<h2>Третий слайдик</h2>
+									<a onClick="goToByScroll('page4'); return false;" href="#"> <img src="img/header-bg-1.png"></a>
 								</div>
 							</li>
 							<li>
-								<img src="images/spacer.gif" alt="">
 								<div class="caption banner">
-									<h2>Хуй знает какой сладик</h2>
+									<a onClick="goToByScroll('page5'); return false;" href="#"> <img src="img/header-bg-2.png"></a>
 								</div>
 							</li>
 						</ul>
-					</div>
-					<div class="socials">
+					</div>-->
+                    <div class="socials">
 						<a href="#"></a>
 						<a href="#"></a>
 						<a href="#"></a>
 						<a href="#"></a>
 					</div>
-				</div>
-			</div>
-		</div>
-        
-        
+<!--                </div>
+            </div>-->
+        </div>
         
      <!--PAGE2 Наши услуги-->   
      
-     		<div id="page3" class="content">
+     		<div id="page2" class="content">
 			<div class="container_12">
 				<div class="grid_12">
 					<div class="slogan">
@@ -208,7 +244,7 @@
         
 <!--PAGE3 Трудности, с которыми сталкиваются клиенты-->        
         
-		<div id="page2" class="content">
+		<div id="page3" class="content">
 			<div class="container_12">
 				<div class="grid_12">
 					<div class="slogan">
@@ -277,37 +313,93 @@
         
 
 <!--PAGE4 Наши преимущества-->
-/*----*/
+<div id="page4" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+                    <h3>Наши преимущества</h3>
+                    </div>
+                 </div>
+            </div>
+</div>
 <!--/PAGE4-->      
         
         
 <!--PAGE5 Наши услуги (таблица тарифов)-->
-/*----*/
+<div id="page5" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+                    <h3>Наши услуги (таблица тарифов)</h3>
+                    </div>
+                 </div>
+            </div>
+</div>
 <!--/PAGE5-->
         
 
 <!--PAGE6 Шаги по увеличению прибыли в вашей компании-->
-/*----*/
+<div id="page6" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+                    <h3>Шаги по увеличению прибыли в вашей компании</h3>
+                    </div>
+                 </div>
+            </div>
+</div>
 <!--/PAGE6-->        
         
         
 <!--PAGE7 Наши клиенты-->
-/*----*/
+<div id="page7" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+                    <h3>Наши клиенты</h3>
+                    </div>
+                 </div>
+            </div>
+</div>
 <!--/PAGE7-->    
         
         
 <!--PAGE8 Наши проекты-->
-/*----*/
+<div id="page8" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+                    <h3>Наши проекты</h3>
+                    </div>
+                 </div>
+            </div>
+</div>
 <!--/PAGE8-->    
 
 
 <!--PAGE9 Отзывы счастливых клиентов-->
-/*----*/
+<div id="page9" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+                    <h3>Отзывы счастливых клиентов</h3>
+                    </div>
+                 </div>
+            </div>
+</div>
 <!--/PAGE9-->
 
 
 <!--PAGE10 Как нас найти (карта)-->
-/*----*/
+<div id="page10" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+                    <h3>Как нас найти (карта)</h3>
+                    </div>
+                 </div>
+            </div>
+</div>
 <!--/PAGE10-->
 
    

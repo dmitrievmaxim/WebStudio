@@ -9,17 +9,17 @@ svn:wc:ra_dav:version-url
 V 65
 /dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/socials.png
 END
-link_marker.png
-K 25
-svn:wc:ra_dav:version-url
-V 69
-/dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/link_marker.png
-END
 spacer.gif
 K 25
 svn:wc:ra_dav:version-url
 V 64
 /dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/spacer.gif
+END
+link_marker.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/link_marker.png
 END
 logo.png
 K 25
@@ -51,17 +51,17 @@ svn:wc:ra_dav:version-url
 V 66
 /dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/box_img4.jpg
 END
-soc1.png
-K 25
-svn:wc:ra_dav:version-url
-V 62
-/dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/soc1.png
-END
 totop.png
 K 25
 svn:wc:ra_dav:version-url
 V 63
 /dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/totop.png
+END
+soc1.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/soc1.png
 END
 favicon.ico
 K 25
@@ -69,29 +69,29 @@ svn:wc:ra_dav:version-url
 V 65
 /dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/favicon.ico
 END
-logo1.jpg
-K 25
-svn:wc:ra_dav:version-url
-V 63
-/dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/logo1.jpg
-END
 camera-loader.gif
 K 25
 svn:wc:ra_dav:version-url
 V 71
 /dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/camera-loader.gif
 END
-logo2.jpg
+logo1.jpg
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/logo2.jpg
+/dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/logo1.jpg
 END
 footer_logo.png
 K 25
 svn:wc:ra_dav:version-url
 V 69
 /dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/footer_logo.png
+END
+logo2.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/logo2.jpg
 END
 logo3.jpg
 K 25
@@ -163,5 +163,5 @@ pagination.png
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/dmitrievmaxim/WebStudio/!svn/ver/2/trunk/site/images/pagination.png
+/dmitrievmaxim/WebStudio/!svn/ver/5/trunk/site/images/pagination.png
 END

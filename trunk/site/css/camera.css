@@ -11,10 +11,9 @@
 .slider_wrapper {
 	overflow: hidden;
 	position: relative;
-	z-index: 0;
-	width: 940px;
-	height: 376px;
-
+	z-index: 1;
+	width: 100%;
+	height: 400px;
 }
 
 .camera_target_content {
@@ -266,9 +265,9 @@
 	display: block;
 	position: absolute;
 	left: 50%;
-	bottom: 73px;
+	bottom: 10px;
 	width: 178px;
-	height: 32px;
+	height: 16px;
 	margin-left: -89px;
 	overflow: hidden;
 	right: 0;
@@ -293,9 +292,9 @@
 
 .pagination li a {
 	display: block;
-	width: 32px;
+	width: 16px;
 	cursor: pointer;
-	height: 32px;
+	height: 16px;
 	background: url(../images/pagination.png) right 0 no-repeat;
 	overflow: hidden;
 	color: transparent;

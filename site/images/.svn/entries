@@ -40,7 +40,7 @@ add
 has-props
 has-prop-mods
 
-spacer.gif
+link_marker.png
 file
 
 
@@ -54,7 +54,7 @@ add
 has-props
 has-prop-mods
 
-link_marker.png
+spacer.gif
 file
 
 
@@ -138,7 +138,7 @@ add
 has-props
 has-prop-mods
 
-soc1.png
+totop.png
 file
 
 
@@ -152,7 +152,7 @@ add
 has-props
 has-prop-mods
 
-totop.png
+soc1.png
 file
 
 
@@ -180,20 +180,6 @@ add
 has-props
 has-prop-mods
 
-logo1.jpg
-file
-
-
-
-add
-
-
-
-
-
-has-props
-has-prop-mods
-
 camera-loader.gif
 file
 
@@ -208,7 +194,7 @@ add
 has-props
 has-prop-mods
 
-logo2.jpg
+logo1.jpg
 file
 
 
@@ -223,6 +209,20 @@ has-props
 has-prop-mods
 
 footer_logo.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+logo2.jpg
 file
 
 
